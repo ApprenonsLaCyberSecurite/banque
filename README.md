@@ -15,9 +15,12 @@ Vidéo pour installer WAMP server : https://www.youtube.com/watch?v=wGxGJ44bi2c&
 - nom de la base est : "banque"
 - pour créer les tables et le jeu de donnée, lancez le script creationBase.sql du répertoire sql dans phpmyadmin
 
-2/ Fichier PHP
+2a/ Fichiers PHP "à la main"
 - créer un répertoire "banque" dans le répertoire www de votre WAMPserver
 - copiez les fichiers php de ce repo et les sous réperoires dans le répertoire "banque" que vous venez de créer
+
+2b/ Fichiers PHP avec git
+Clonez le repo directement dans le répertoire www de WAMP server : git clone https://github.com/ApprenonsLaCyberSecurite/banque.git
 
 # Dernières infos
 Je rappelle que ceci n'est pas un tutoriel pour développer un site web en PHP. C'est juste un lab truffé de failles de sécurité pour qu'on puisse s'entrainer à les découvrir, les exploiter et les corriger dans un but purement pédagogique :)
