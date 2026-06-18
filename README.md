@@ -13,7 +13,7 @@ Vidéo pour installer WAMP server : https://www.youtube.com/watch?v=wGxGJ44bi2c&
 1/ Créer votre base de données
 - le site utilise le user root sans mot de passe. 
 - nom de la base est : "banque"
-- pour créer les tables et le jeu de donnée, copiez-coller les scripts du répertoire sql dans phpmyadmin et cliquez sur exécuter
+- pour créer les tables et le jeu de donnée, lancez le script creationBase.sql du répertoire sql dans phpmyadmin
 
 2/ Fichier PHP
 - créer un répertoire "banque" dans le répertoire www de votre WAMPserver
